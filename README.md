@@ -1,9 +1,8 @@
-# Call For Challenges (CFC)
+# Call For Challenges (C4C)
 
-## O que é o Call For Challenges (CFC)?
+## O que é o Call For Challenges (C4C)?
 
-O Call For Challenges (CFC) é uma oportunidade para a comunidade enviar desafios Capture The Flag (CTF) para inclusão no BSides/SP. 
-Os desafios que forem aceitos estarão no CTF organizado pela BSides/SP com a parceria do Hack In Cariri.
+O Call For Challenges (C4C) é uma oportunidade para a comunidade contribuir com desafios de Capture The Flag (CTF), que podem ser selecionados para compor eventos nos quais participamos e que incluem essa modalidade.
 
 ## Como funciona?
 
@@ -23,10 +22,6 @@ Atualmente estamos aceitando submissão dos seguintes desafios, basta clicar no 
 - [OSINT](./challenges/OSINT/README.md)
 - [Pwn](./challenges/Pwn/README.md)
 
-## Prazos
-
-- Prazo de envio dos desafios: 30/04/2024
-- Notificação de aceitação/rejeição: 15/05/2024
 
 ## Perguntas frequentes (FAQs)
 
@@ -52,7 +47,7 @@ R: Incentivamos desafios originais; no entanto, se você modificou significativa
 
 **P: Como garantiremos que a resolução de um desafio não afete o resultado do CTF?**
 
-R: Os desafios submetidos receberão uma pontuação substancialmente inferior àquela atribuída aos desafios criados pela equipe do evento. Essa medida visa garantir que, caso a solução de um desafio seja divulgada ou compartilhada com os participantes do CTF, seu impacto no resultado geral do evento seja minimizado. Além disso, depositamos confiança na integridade da comunidade e dos participantes que submetem desafios. Nossa meta é fomentar um ambiente de justiça e honestidade, onde a contribuição da comunidade seja genuinamente valorizada. O Call For Challenges (CFC) foi concebido para estimular uma maior participação comunitária, promovendo o espírito de colaboração e rejeitando quaisquer formas de desigualdade ou desonra em nossa comunidade.
+R: Os desafios submetidos receberão uma pontuação substancialmente inferior àquela atribuída aos desafios criados pela equipe do evento. Essa medida visa garantir que, caso a solução de um desafio seja divulgada ou compartilhada com os participantes do CTF, seu impacto no resultado geral do evento seja minimizado. Além disso, depositamos confiança na integridade da comunidade e dos participantes que submetem desafios. Nossa meta é fomentar um ambiente de justiça e honestidade, onde a contribuição da comunidade seja genuinamente valorizada. O Call For Challenges (C4C) foi concebido para estimular uma maior participação comunitária, promovendo o espírito de colaboração e rejeitando quaisquer formas de desigualdade ou desonra em nossa comunidade.
 
 **P: Como será definida a pontuação do desafio?**
 
