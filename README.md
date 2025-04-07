@@ -55,4 +55,4 @@ R: A pontuação dos desafios aprovados será determinada pela equipe do evento.
 
 **P: Qual formato da flag?**
 
-R: Nossas flags possuem o seguinte formato HIK + ALGUM TEXTO + HASH MD5 DA FLAG. Ex: HIK_EASY_REVERSE_CHALLENGE_c22062e7a20164b9b89b38527b4e7f82
+R: Nossas flags possuem o seguinte formato HIK + ALGUM TEXTO + HASH MD5 DA FLAG. Ex: **HIK_EASY_REVERSE_CHALLENGE_c22062e7a20164b9b89b38527b4e7f82**
