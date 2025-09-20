@@ -1,31 +1,31 @@
-# Submissão de desafios de OSINT
+# OSINT Challenge Submission
 
-## Qual padrão devo seguir?
+## What pattern should I follow?
 
-- Os desafios de OSINT não poderão ter dados pessoais de outras pessoas.
-- Desencorajamos que você utilize seus dados pessoais para criar um desafio de OSINT.
-- Podem ser criados websites e informações pertinentes falsas para os desafios de OSINT.
+- OSINT challenges cannot contain personal data of other people.
+- We discourage using your personal data to create an OSINT challenge.
+- Fake websites and relevant information can be created for OSINT challenges.
 
-## Exemplo
+## Example
 
-No diretório exemplo temos o arquivo README.md que contém todas as informações do desafio.
+In the example directory we have the README.md file that contains all the challenge information.
 
-## Como submeter um desafio de OSINT
+## How to submit an OSINT challenge
 
-Para submeter o seu desafio, siga o passo a passo abaixo:
+To submit your challenge, follow the steps below:
 
-1. Crie um repositório privado com o seu desafio.
+1. Create a private repository with your challenge.
 
-2. Adicione o email organizacao@hackincariri.com.br como contribuidor do projeto.
+2. Add the email organizacao@hackincariri.com.br as a contributor to the project.
 
-3. Acesse ao formulário nesse [link](https://forms.gle/bnVjrsWELCpWpf1g8).
+3. Access the form at this [link](https://forms.gle/bnVjrsWELCpWpf1g8).
 
-4. Coloque o link do projeto compartilhado.
+4. Put the link of the shared project.
 
-5. Selecione o tipo do desafio OSINT.
+5. Select the challenge type OSINT.
 
-6. Coloque o seu nickname e seu melhor email.
+6. Put your nickname and your best email.
 
-7. Aguarde o nosso contato. ;)
+7. Wait for our contact. ;)
 
 

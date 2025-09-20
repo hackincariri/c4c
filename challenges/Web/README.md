@@ -1,37 +1,37 @@
-# Submissão de desafios web
+# Web Challenge Submission
 
-## Qual padrão devo seguir?
+## What pattern should I follow?
 
-- A aplicação pode ser feita em qualquer linguagem, desde que esteja containerizada com Docker.
-- A aplicação precisa estar em container junto com todas as dependências necessárias. 
-- A aplicação precisa ter uma rota de health check.
+- The application can be made in any language, as long as it is containerized with Docker.
+- The application needs to be in a container with all necessary dependencies.
+- The application needs to have a health check route.
 
-## Estrutura do projeto
+## Project Structure
 
-A estrutura do projeto deve seguir da seguinte forma:
+The project structure should follow the following format:
 
-Dependências
+Dependencies
 
  - Docker
  - Docker swarm
  - Dockerfile
 
-Para executar o seu serviço em Docker swarm, será necessário seguir estes passos:
+To run your service in Docker swarm, you will need to follow these steps:
 
 ```sh
 docker swarm init
 ```
 
-Após a inicialização do Docker swarm na sua máquina, vamos para os passos de disponibilizar o serviço:
+After initializing Docker swarm on your machine, let's go to the steps to make the service available:
 
-Seu Docker deverá utilizar redes criadas a partir deste comando:
+Your Docker should use networks created from this command:
 
 ```sh
 
 docker network create --driver overlay hackincariri
 
 ```
-Deverá haver um arquivo docker-compose.yml dentro do projeto que siga a seguinte estrutura:
+There should be a docker-compose.yml file within the project that follows the following structure:
 
 ```yaml
 
@@ -39,17 +39,17 @@ version: "3.8"
 
 services:
   app:
-    image: "nome_da_imagem"
+    image: "image_name"
     deploy:
       replicas: 1
       restart_policy:
         condition: any
     ports:
-      - "3000:3000" # sua porta local deverá ser externalizada
+      - "3000:3000" # your local port should be externalized
     networks:
       - hackincariri 
     healthcheck:
-      test: "curl -f http://localhost:3000/health || exit 1" # sua aplicação deverá retornar 200 nesse path 
+      test: "curl -f http://localhost:3000/health || exit 1" # your application should return 200 on this path 
       interval: 10s
       timeout: 5s
       retries: 3
@@ -59,7 +59,7 @@ networks:
     external: true
 ```
 
-Deverá haver um arquivo Dockerfile como esse abaixo:
+There should be a Dockerfile like the one below:
 
 ```Dockerfile
 
@@ -78,21 +78,21 @@ EXPOSE 3000
 CMD ["npm", "start"]
 ```
 
-Para executar o seu container será necessário utilizar os seguintes comandos:
+To run your container you will need to use the following commands:
 
-Gerar a imagem do Dockerfile:
-
-```sh
-docker build . -t "nome_da_imagem"
-```
-
-Subir o serviço no Docker swarm a partir do docker-compose.yml:
+Generate the Dockerfile image:
 
 ```sh
-docker stack deploy -c docker-compose.yml "nome_do_servico"
+docker build . -t "image_name"
 ```
 
-## Estrutura da pasta do projeto
+Deploy the service in Docker swarm from the docker-compose.yml:
+
+```sh
+docker stack deploy -c docker-compose.yml "service_name"
+```
+
+## Project folder structure
 
 ```sh
 
@@ -104,24 +104,24 @@ docker stack deploy -c docker-compose.yml "nome_do_servico"
 
 ```
 
-Recomendamos seguir a estrutra de pastas descrita acima. 
+We recommend following the folder structure described above.
 
-Modifique o arquivo README.md com as informações do seu desafio.
+Modify the README.md file with your challenge information.
 
-## Como submeter um desafio de web
+## How to submit a web challenge
 
-Para submeter o seu desafio, siga o passo a passo abaixo:
+To submit your challenge, follow the steps below:
 
-1. Crie um repositório privado com o seu desafio.
+1. Create a private repository with your challenge.
 
-2. Adicione o email organizacao@hackincariri.com.br como contribuidor do projeto.
+2. Add the email organizacao@hackincariri.com.br as a contributor to the project.
 
-3. Acesse ao formulário nesse [link](https://forms.gle/bnVjrsWELCpWpf1g8).
+3. Access the form at this [link](https://forms.gle/bnVjrsWELCpWpf1g8).
 
-4. Coloque o link do projeto compartilhado.
+4. Put the link of the shared project.
 
-5. Selecione o tipo do desafio Web.
+5. Select the challenge type Web.
 
-6. Coloque o seu nickname e seu melhor email.
+6. Put your nickname and your best email.
 
-7. Aguarde o nosso contato. ;)
+7. Wait for our contact. ;)

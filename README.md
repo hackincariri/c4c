@@ -1,58 +1,58 @@
 # Call For Challenges (C4C)
 
-## O que é o Call For Challenges (C4C)?
+## What is Call For Challenges (C4C)?
 
-O Call For Challenges (C4C) é uma oportunidade para a comunidade contribuir com desafios de Capture The Flag (CTF), que podem ser selecionados para compor eventos nos quais participamos e que incluem essa modalidade.
+Call For Challenges (C4C) is an opportunity for the community to contribute Capture The Flag (CTF) challenges that may be selected to compose events we participate in that include this modality.
 
-## Como funciona?
+## How does it work?
 
-- Os participantes são incentivados a enviar desafios CTF originais e criativos em várias categorias, como web, owned, engenharia reversa, etc.
-- Os desafios enviados serão revisados pela equipe organizadora para garantir que atendam aos critérios de qualidade e relevância.
-- Desafios selecionados serão incluídos no evento CTF ou plataforma para que os participantes possam resolver e aproveitar.
-- Os contribuidores dos desafios selecionados serão reconhecidos e creditados adequadamente.
-- Contamos com a honestidade de todos da comunidade que desejarem submeter desafios a fim de termos um ambiente justo e de bem estar para todos.
+- Participants are encouraged to submit original and creative CTF challenges in various categories, such as web, pwn, reverse engineering, etc.
+- Submitted challenges will be reviewed by the organizing team to ensure they meet quality and relevance criteria.
+- Selected challenges will be included in the CTF event or platform so participants can solve and enjoy them.
+- Contributors of selected challenges will be recognized and properly credited.
+- We count on the honesty of all community members who wish to submit challenges in order to have a fair and well-being environment for everyone.
 
-## Como submeter um desafio?
+## How to submit a challenge?
 
-Atualmente estamos aceitando submissão dos seguintes desafios, basta clicar no link abaixo para saber como submeter:
+We are currently accepting submissions for the following challenges (but not limited too), just click the link below to know how to submit:
 
 - [Web](./challenges/Web/README.md)
-- [Eng. Reversa](./challenges/Eng.%20Reversa/README.md)
-- [Forense](./challenges/Forense/README.md)
+- [Reverse Engineering](./challenges/Reverse/README.md)
+- [Forensics](./challenges/Forensics/README.md)
 - [OSINT](./challenges/OSINT/README.md)
 - [Pwn](./challenges/Pwn/README.md)
 
 
-## Perguntas frequentes (FAQs)
+## Frequently Asked Questions (FAQs)
 
-**P: Quem pode enviar desafios?**
+**Q: Who can submit challenges?**
 
-R: Qualquer pessoa da comunidade com interesse em criar desafios CTF pode enviar.
+A: Anyone in the community with an interest in creating CTF challenges can submit.
 
-**P: Posso enviar desafios em várias categorias?**
+**Q: Can I submit challenges in multiple categories?**
 
-R: Sim, você pode enviar desafios em diferentes categorias, desde que atendam às diretrizes de envio.
+A: Yes, you can submit challenges in different categories, as long as they meet the submission guidelines.
 
-**P: Quantos desafios posso enviar?**
+**Q: How many challenges can I submit?**
 
-R: Não há limite para o número de desafios que você pode enviar, mas a qualidade é priorizada em relação à quantidade.
+A: There is no limit to the number of challenges you can submit, but quality is prioritized over quantity.
 
-**P: Os contribuidores serão recompensados pelos seus desafios?**
+**Q: Will contributors be rewarded for their challenges?**
 
-R: Embora os contribuidores não recebam compensação em dinheiro, eles serão creditados por suas contribuições no evento/plataforma.
+A: Although contributors do not receive monetary compensation, they will be credited for their contributions in the event/platform.
 
-**P: Posso enviar desafios que foram usados em outros eventos CTF?**
+**Q: Can I submit challenges that have been used in other CTF events?**
 
-R: Incentivamos desafios originais; no entanto, se você modificou significativamente um desafio existente, pode enviá-lo.
+A: We encourage original challenges; however, if you have significantly modified an existing challenge, you can submit it.
 
-**P: Como garantiremos que a resolução de um desafio não afete o resultado do CTF?**
+**Q: How will we ensure that solving a challenge does not affect the CTF result?**
 
-R: Os desafios submetidos receberão uma pontuação substancialmente inferior àquela atribuída aos desafios criados pela equipe do evento. Essa medida visa garantir que, caso a solução de um desafio seja divulgada ou compartilhada com os participantes do CTF, seu impacto no resultado geral do evento seja minimizado. Além disso, depositamos confiança na integridade da comunidade e dos participantes que submetem desafios. Nossa meta é fomentar um ambiente de justiça e honestidade, onde a contribuição da comunidade seja genuinamente valorizada. O Call For Challenges (C4C) foi concebido para estimular uma maior participação comunitária, promovendo o espírito de colaboração e rejeitando quaisquer formas de desigualdade ou desonra em nossa comunidade.
+A: Submitted challenges will receive a substantially lower score than that assigned to challenges created by the event team. This measure aims to ensure that, in case the solution of a challenge is disclosed or shared with CTF participants, its impact on the overall event result is minimized. In addition, we trust in the integrity of the community and participants who submit challenges. Our goal is to foster an environment of fairness and honesty, where community contribution is genuinely valued. Call For Challenges (C4C) was designed to encourage greater community participation, promoting the spirit of collaboration and rejecting any forms of inequality or dishonor in our community.
 
-**P: Como será definida a pontuação do desafio?**
+**Q: How will the challenge score be defined?**
 
-R: A pontuação dos desafios aprovados será determinada pela equipe do evento. Cada desafio será avaliado com base em sua complexidade, originalidade e contribuição para a diversidade do CTF. A equipe do evento atribuirá uma pontuação adequada a cada desafio aprovado, levando em consideração diversos fatores.
+A: The score of approved challenges will be determined by the event team. Each challenge will be evaluated based on its complexity, originality, and contribution to CTF diversity. The event team will assign an appropriate score to each approved challenge, taking into account various factors.
 
-**P: Qual formato da flag?**
+**Q: What is the flag format?**
 
-R: Nossas flags possuem o seguinte formato HIK + ALGUM TEXTO + HASH MD5 DA FLAG. Ex: **HIK_EASY_REVERSE_CHALLENGE_c22062e7a20164b9b89b38527b4e7f82**
+A: Our flags have the following format HIK + SOME TEXT + MD5 HASH OF THE FLAG. E.g.: **HIK_EASY_REVERSE_CHALLENGE_c22062e7a20164b9b89b38527b4e7f82**
